@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    background: url("/assets/images/gradient-image.jpg");
+    overflow: hidden;
+    background-size: cover;
+    color: black;
+  }
+
+  .logo_name {
+    margin: 6em 0 4.7em 0;
+  }
+
+  .logo_name_image {
+    margin-right: 4em;
+  }
+
+  .website_description {
+    width: 40%;
+  }
+
+  .gradient_coin {
+    position: absolute;
+    top: 25%;
+    left: 6%;
+  }
+
+  .credit_cards {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+  }
+
+  .login_page_buttons {
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 2px 5px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 6px solid #1A16F3;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .login_page_buttons::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left:0%;
+    width: 400%;
+    height: 400%;
+    background-color: #1A16F3;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease;
+    z-index: 0;
+  }
+  
+  .login_page_buttons:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .login_page_buttons:hover {
+    color: white;
+  }
+  
+  .login_page_buttons span {
+    position: relative;
+    z-index: 1;
+  }

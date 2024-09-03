@@ -1,3 +1,8 @@
+# FinTrack
+
+A personal finance platform that seamlessly merges intuitive expense tracking with real-time bank integration, empowering users to take control of their financial journey.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
