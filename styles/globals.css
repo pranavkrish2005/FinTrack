@@ -20,6 +20,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--foreground-rgb));
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 @layer utilities {

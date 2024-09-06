@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Login from "@/components/Login";
+import Login from '@/components/Login';
 import '@/styles/login.css'
 
 const FirstPage = () => {
@@ -14,24 +14,12 @@ const FirstPage = () => {
         </div>
       </Link>
       <Image src="/assets/images/gradientCoin.png"
-        height={120} width={200} alt="gradientCoin" className='gradient_coin' />
+        height={160} width={240} alt="gradientCoin" className='gradient_coin' />
       <Image src="/assets/images/creditCards.png"
-        height={120} width={200} alt="creditCards" className='credit_cards' />
+        height={160} width={240} alt="creditCards" className='credit_cards' />
       <p className='text-xl website_description'>Personal finance platform with intuitive expense tracking empowering you to take control of your financial journey</p>
-      <p>Want to see a sample?</p>
-      <button type='button' className='login_page_buttons text-base'><span>Sample</span></button>
-      <div className="input_container">
-        <input type="text" id="username" required />
-        <label htmlFor="username">Username</label>
-      </div>
-      <div className="input_container">
-        <input type="password" id="password" required />
-        <label htmlFor="password">Password</label>
-      </div>
-      <Link href='/forgotpassword'>Forgot password?</Link>
-      <button type='button' className='login_page_buttons text-base'><span>Login</span></button>
-      <p>Don't have an account?</p>
-      <button type='button' className='login_page_buttons text-base'><span>Sign Up</span></button>
+      <p>Want to see a demo?</p>
+      <Link href='/demo/home' id='Sample_link' className='login_page_buttons text-base'><span>Demo</span></Link>
       <Login />
     </div>
   )
